@@ -1,0 +1,84 @@
+# write single line comment
+
+<< block_name
+write
+multi
+line
+comment
+
+block_name
+
+
+variable
+command as variable
+ask user input : read variable
+			echo &variable
+		or
+		
+		read -p "enter prompt" variable
+		echo "$variable"
+
+------------------------------------------------------
+# script to add username
+
+read -p "add username to add" username
+sudo adduser -m "$username"
+echo "username $username added"
+		
+------------------------------------------------------
+
+argumetns:
+	$0 $1 $2
+	./bash.sh _ _	
+	
+if-else conditions:
+	if [[ cond ]];
+	then
+		statement
+	elif [[ cond ]];
+	then 
+		statement
+	
+	else
+		statement
+	fi
+	
+------------------------------------------------------
+
+loops
+	
+for loop:
+	
+for (( num=1; num<=5; num++ ));
+do 
+	command
+done
+	
+	
+	
+while loop:
+
+while [[ cond]];
+do
+	command
+done
+	
+	
+while [[`expr $num%2` ==0 ]]
+
+
+---------------------------------------------
+functions
+
+function name(){
+
+
+
+	
+name #func call
+	
+	
+	
+	
+
+

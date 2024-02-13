@@ -1,0 +1,23 @@
+linux architecture:
+		apps--->shell--->kernel(c languaage)--->hardware
+		
+
+shell:
+	linux torvalds created linux and commands in C language
+	steve bourne created shell (sh)
+	shell lcoation: /bin/sh
+	then he created : bash: bourne again shell
+	
+shell script:
+	line 1 : declare which shell is being used in the script:
+		#!/bin/bash
+	add commands from line1 onwards
+
+	make shell script executable
+	
+	754
+	7: rwx
+	5: rx
+	4: r
+	
+	after executable permission, the colo of file might change to green
